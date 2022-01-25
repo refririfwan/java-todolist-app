@@ -28,8 +28,9 @@ public class TodoListServiceImpl implements TodoListService {
 
   @Override
   public void addTodoList(String todo) {
-    // TODO Auto-generated method stub
-
+    TodoList todoList = new TodoList(todo);
+    todoListRepository.add(todoList);
+    System.out.println("Sueccess add new Todo : " + todo);
   }
 
   @Override
