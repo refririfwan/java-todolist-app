@@ -1,4 +1,4 @@
-public class App {
+public class AppV1 {
 
   public static String[] model = new String[10];
 
